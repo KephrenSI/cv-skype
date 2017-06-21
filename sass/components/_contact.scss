@@ -1,0 +1,195 @@
+@media screen and (min-width: 1026px) {   
+    .contact{
+        max-width: 1560px;
+    	background-image: url("../assets/img/bottom-bg.jpg");
+    	background-position: center calc(100% - 90px);
+        background-repeat: no-repeat;
+        padding: 5em 5% 27em;
+        text-align: center;
+    	&__heading2{
+    		font-size: 2.4em;
+    	    font-weight: 100;
+    	    letter-spacing: 0;
+    	    line-height: 1.2em;
+    	    margin-bottom: 0.5em;
+    	}
+    	&__txt{
+    		font-size: 1.8em;
+    	    font-weight: 100;
+    	    letter-spacing: 0;
+    	    line-height: 1.2em;
+    	    margin-bottom: 2em;
+    	}
+    	.list{
+        	margin: 2.8em 0 3.5em;
+        	&__elt{
+        		display: inline-block;
+        		margin: 0 0.5em;
+        		&--link{
+        			transition: background 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, opacity 0.5s ease-in 0s;
+        			text-decoration: none;
+    				line-height: 1.25em;
+    				padding: 0.7em 2em 0.8em;
+        		}
+        	}
+        	&__elt:first-child a{
+    			border: 2px solid $blueButtonColor;
+    			border-radius: 50px;
+    			color: $linkBlueColor;
+    			background-color: transparent;
+        	}
+        	&__elt:first-child:hover a,
+        	&__elt:first-child:focus a{
+    			border: 2px solid $lightBlue;
+        	}
+        	&__elt:last-child a{
+        		color: white;
+    			border: 2px solid #0078ca;
+        		border-radius: 50px;
+        		background-color: #0078ca;
+        		transition: background 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
+        	}
+        	&__elt:last-child:hover a,
+        	&__elt:last-child:focus a{
+        		border: 2px solid $blueButtonPushBlue;
+        		background-color: $blueButtonPushBlue;
+        	}
+    	}
+    }
+}
+@media screen and (min-width: 771px) and (max-width: 1025px){
+    .contact{
+        background-image: url("../assets/img/bottom-bg.jpg");
+        background-position: center calc(100% - 90px);
+        background-repeat: no-repeat;
+        padding: 3em 0 27em;
+        text-align: center;
+        &__heading2{
+            font-size: 1.8em;
+            font-weight: 100;
+            letter-spacing: 0;
+            line-height: 1.2em;
+            margin-bottom: 0.5em;
+        }
+        &__txt{
+            display: none;
+        }
+        .list{
+            margin: 2.8em 0 3.5em;
+            &__elt{
+                display: inline-block;
+                margin: 0 0.5em;
+                &--link{
+                    transition: background 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, opacity 0.5s ease-in 0s;
+                    text-decoration: none;
+                    line-height: 1.25em;
+                    padding: 0.7em 2em 0.8em;
+                }
+            }
+            &__elt:first-child{
+                display: none;
+            }
+            &__elt:last-child a{
+                color: white;
+                border: 2px solid #0078ca;
+                border-radius: 50px;
+                background-color: #0078ca;
+                transition: background 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
+            }
+            &__elt:last-child:hover a,
+            &__elt:last-child:focus a{
+                border: 2px solid $blueButtonPushBlue;
+                background-color: $blueButtonPushBlue;
+            }
+        }
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 770px){
+    .contact{
+        padding: 1.5em 1.5em;
+        text-align: center;
+        &__heading2{
+            font-size: 1.8em;
+            font-weight: 100;
+            letter-spacing: 0;
+            line-height: 1.3em;
+            margin-bottom: 0.5em;
+        }
+        &__txt{
+            display: none;
+        }
+        .list{
+            margin: 2.8em 0 2em;
+            &__elt{
+                &--link{
+                    transition: background 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, opacity 0.5s ease-in 0s;
+                    text-decoration: none;
+                    line-height: 1.25em;
+                    padding: 0.7em 0em 0.8em;
+                }
+            }
+            &__elt:first-child{
+                display: none;
+            }
+            &__elt:last-child a{
+                display: inline-block;
+                width: 100%;
+                max-width: 445px;
+                color: white;
+                border: 2px solid #0078ca;
+                border-radius: 50px;
+                background-color: #0078ca;
+                transition: background 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
+            }
+            &__elt:last-child:hover a,
+            &__elt:last-child:focus a{
+                border: 2px solid $blueButtonPushBlue;
+                background-color: $blueButtonPushBlue;
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .contact{
+        padding: 1.5em 1.5em;
+        text-align: center;
+        &__heading2{
+            font-size: 1.2em;
+            font-weight: 100;
+            letter-spacing: 0;
+            line-height: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        &__txt{
+            display: none;
+        }
+        .list{
+            margin: 2.8em 0 2em;
+            &__elt{
+                &--link{
+                    transition: background 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s, opacity 0.5s ease-in 0s;
+                    text-decoration: none;
+                    line-height: 1.25em;
+                    padding: 0.5em 0em 0.6em;
+                }
+            }
+            &__elt:first-child{
+                display: none;
+            }
+            &__elt:last-child a{
+                display: inline-block;
+                width: 100%;
+                color: white;
+                border: 2px solid #0078ca;
+                border-radius: 50px;
+                background-color: #0078ca;
+                transition: background 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
+            }
+            &__elt:last-child:hover a,
+            &__elt:last-child:focus a{
+                border: 2px solid $blueButtonPushBlue;
+                background-color: $blueButtonPushBlue;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+/* CV de Képhren SIMONIS
+ *
+ * /sass/styles.scss - Main stylesheet
+ *
+ * coded by Képhren SIMONIS
+ */
+
+html {
+	background-color: white;
+	font-family: "Roboto","-apple-system","BlinkMacSystemFont","Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2B2B30;
+}
+.hidden{
+	display: none;
+}
+span{
+	font-family: Glyphs;
+}
+.span1{
+	margin-right: 1em;
+}
+.span2{
+	margin-left: 1em;
+}
+.span4{
+	font-family: "Roboto","-apple-system","BlinkMacSystemFont","Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+}
+.nbsp {
+  color: transparent;
+}
+
+.st0 {
+    fill:#00ADEE;
+}
+.st1 {
+    fill:#FEFEFE;
+}
+a:hover .st0,
+a:focus .st0 {
+    fill:#009EE5;
+}

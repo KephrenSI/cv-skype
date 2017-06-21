@@ -1,0 +1,436 @@
+@media screen and (min-width: 1601px) {
+	.header{
+		.burger{
+			display: none;
+		}
+		.burger-check {
+            display: none;
+        }
+		position: fixed;
+		top: 0;
+		z-index: 10;
+		width: 100%;
+		background-color: white;
+	    &__nav{
+	    	margin: 0 auto;
+	    	max-width: 1570px;
+			.list{
+				display: flex;
+				&__elt{
+					letter-spacing: -0.5px;
+					white-space: nowrap;
+					padding: 0.8em 0;
+				}
+				&__refresh{
+					margin: 0 1em;
+				}
+				&__nav{
+					&--link{
+						font-size: 1.1em;
+						line-height: 2em;
+						padding: 1em 0.6em;
+						text-decoration: none;
+						color: $linkBlueColor;
+					}
+				}
+				&__nav:hover,
+				&__nav:focus{
+					background-color: $lightBlue;
+				}
+				&__nav:hover a,
+				&__nav:focus a{
+					color: $textLightColor;
+				}
+				&__infos{
+					width: 100%;
+					margin: 0 1em;
+					position: relative;
+					float: right;
+					.btn{
+						position: relative;
+						top: 5px;
+						line-height: 1.25em;
+						border: 2px solid $blueButtonColor;
+						border-radius: 50px;
+						color: $linkBlueColor;
+						cursor: pointer;
+						float: right;
+						font-size: 0.85em;
+						font-weight: 600;
+						padding: 0.25em 1em 0.25em 1.125em;
+						transition: 500ms;
+						span{
+							position: relative;
+							top: -2px;
+							font-size: 0.85em;
+							color: $blueButtonColor;
+							transition: 500ms;
+						}
+					}
+					.btn:hover,
+					.btn:focus{
+						border: 2px solid $lightBlue;
+					}
+					.btn:hover span,
+					.btn:focus span{
+						color: $lightBlue;
+					}
+					.dropdown{
+						background-color: white;
+						position: absolute;
+						right: 0;
+						margin-top: 4em;
+						box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+						&__elt{
+							border-top: 1px solid #d8e5ef;
+							&--link{
+								padding: 1em 1.2em 1em 1.5em;
+								font-size: 0.9em;
+								text-decoration: none;
+								color: $textDarkColor;
+								display: block;
+							}
+							.span1{
+								font-size: 1.2em;
+								color: $lightBlue;
+							}
+						}
+						&__elt:first-child{
+							border-top: medium none transparent;
+						}
+						&__elt:first-child:before{
+							border-color: transparent transparent #fff;
+						    border-style: solid;
+						    border-width: 0 10px 10px;
+						    content: "";
+						    height: 0;
+						    position: absolute;
+						    top: -9px;
+						    width: 0;
+						    right: 29px;
+						}
+						&__elt:last-child{
+							background-color: #F0F4F8;
+							font-size: 0.8em;
+							text-indent: -1em;
+						}
+						&__elt:first-child:hover,
+						&__elt:first-child:focus,
+						&__elt:nth-child(2):hover,
+						&__elt:nth-child(2):focus{
+							background-color: #077db4;
+						}
+						&__elt:first-child:hover a,
+						&__elt:first-child:focus a,
+						&__elt:nth-child(2):hover a,
+						&__elt:nth-child(2):focus a,
+						&__elt:first-child:hover span,
+						&__elt:first-child:focus span,
+						&__elt:nth-child(2):hover span,
+						&__elt:nth-child(2):focus span{
+							color: $textLightColor;
+						}
+						&__elt:last-child:hover span,
+						&__elt:last-child:focus span{
+							text-decoration: underline;
+						}
+						&__elt:last-child span,
+						&__elt:last-child span{
+							color: #077db4;
+						}
+						&__elt:hover:first-child:before,
+						&__elt:focus:first-child:before{
+							border-color: transparent transparent #077db4;
+						}
+					}
+				}
+			}
+	    }  
+	}
+}
+@media screen and (min-width: 771px) and (max-width: 1600px){ 
+	.header{
+		.burger{
+			display: none;
+		}
+		.burger-check {
+            display: none;
+        }
+		position: fixed;
+		top: 0;
+		z-index: 10;
+		width: 100%;
+		background-color: white;
+	    &__nav{
+	    	margin: 0 auto;
+	    	max-width: 960px;
+			.list{
+				display: flex;
+				&__elt{
+					letter-spacing: -0.5px;
+					white-space: nowrap;
+					padding: 0.8em 0;
+				}
+				&__refresh{
+					margin: 0 1em;
+				}
+				&__nav{
+					&--link{
+						font-size: 1.1em;
+						line-height: 2em;
+						padding: 1em 0.6em;
+						text-decoration: none;
+						color: $linkBlueColor;
+					}
+				}
+				&__nav:hover,
+				&__nav:focus{
+					background-color: $lightBlue;
+				}
+				&__nav:hover a,
+				&__nav:focus a{
+					color: $textLightColor;
+				}
+				&__infos{
+					width: 40%;
+					margin: 0 1em;
+					position: relative;
+					.btn{
+						position: relative;
+						top: 5px;
+						line-height: 1.25em;
+						border: 2px solid $blueButtonColor;
+						border-radius: 50px;
+						color: $linkBlueColor;
+						cursor: pointer;
+						float: right;
+						font-size: 0.85em;
+						font-weight: 600;
+						padding: 0.25em 1em 0.25em 1.125em;
+						transition: 500ms;
+						span{
+							position: relative;
+							top: -2px;
+							font-size: 0.85em;
+							color: $blueButtonColor;
+							transition: 500ms;
+						}
+					}
+					.btn:hover,
+					.btn:focus{
+						border: 2px solid $lightBlue;
+					}
+					.btn:hover span,
+					.btn:focus span{
+						color: $lightBlue;
+					}
+					.dropdown{
+						background-color: white;
+						position: absolute;
+						right: 0;
+						margin-top: 4em;
+						box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+						&__elt{
+							border-top: 1px solid #d8e5ef;
+							&--link{
+								padding: 1em 1.2em 1em 1.5em;
+								font-size: 0.9em;
+								text-decoration: none;
+								color: $textDarkColor;
+								display: block;
+							}
+							.span1{
+								font-size: 1.2em;
+								color: $lightBlue;
+							}
+						}
+						&__elt:first-child{
+							border-top: medium none transparent;
+						}
+						&__elt:first-child:before{
+							border-color: transparent transparent #fff;
+						    border-style: solid;
+						    border-width: 0 10px 10px;
+						    content: "";
+						    height: 0;
+						    position: absolute;
+						    top: -9px;
+						    width: 0;
+						    right: 29px;
+						}
+						&__elt:last-child{
+							background-color: #F0F4F8;
+							font-size: 0.8em;
+							text-indent: -1em;
+						}
+						&__elt:first-child:hover,
+						&__elt:first-child:focus,
+						&__elt:nth-child(2):hover,
+						&__elt:nth-child(2):focus{
+							background-color: #077db4;
+						}
+						&__elt:first-child:hover a,
+						&__elt:first-child:focus a,
+						&__elt:nth-child(2):hover a,
+						&__elt:nth-child(2):focus a,
+						&__elt:first-child:hover span,
+						&__elt:first-child:focus span,
+						&__elt:nth-child(2):hover span,
+						&__elt:nth-child(2):focus span{
+							color: $textLightColor;
+						}
+						&__elt:last-child:hover span,
+						&__elt:last-child:focus span{
+							text-decoration: underline;
+						}
+						&__elt:last-child span,
+						&__elt:last-child span{
+							color: #077db4;
+						}
+						&__elt:hover:first-child:before,
+						&__elt:focus:first-child:before{
+							border-color: transparent transparent #077db4;
+						}
+					}
+				}
+			}
+	    }  
+	}
+}
+@media screen and (max-width: 770px) {
+	.header{
+		font-size: 0.9em;
+		.burger{
+            display: block;
+            outline: 0;
+            padding: 0;
+            cursor: pointer;
+            position: absolute;
+            right: 70px;
+            top: 18px;
+            z-index: 10;
+        }
+        .burger::-moz-focus-inner{
+            border: 0;
+            padding: 0;
+        }
+        .burger:before{
+        	content: "";
+            background: $lightBlue;
+            border-radius: 50%;
+
+            display: block;
+            width: 2.2em;
+            height: 2.2em;
+            position: absolute;
+            right: -49px;
+            top: -10px;
+
+        }
+        .burger:after{
+        	content: "";
+        	background-image: url("../assets/img/menuburger.png");
+            background-repeat: no-repeat;
+            background-size: 60%;
+            top: 0px;
+            right: -55px;
+            content: "";
+            display: block;
+            height: 35px;
+            position: absolute;
+            width: 80%;
+            
+        }
+        .burger-check:checked ~ .burger:after {
+            content: "";
+        	background-image: url("../assets/img/menuburgerclose.png");
+            background-repeat: no-repeat;
+            background-size: 60%;
+            top: 0px;
+            right: -55px;
+            content: "";
+            display: block;
+            height: 35px;
+            position: absolute;
+            width: 80%;
+        }
+        .burger-check{
+            display: none;
+        }
+        .header__nav{
+        	background-color: white;
+            color: white;
+
+            overflow: hidden;
+            max-height: 3.1em;
+            width: 100%;
+        }
+        .burger-check:checked ~ .header__nav{
+            max-height: 100%;
+            background-color: #00AFF0; 
+        }
+        .list__link{
+        	color: inherit;
+            font-style: italic;
+        }
+        .list{
+            z-index: 3;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+        }
+        li+li{
+        	border-top: 1px solid #4dc7f5;
+        }
+		.list__elt:nth-child(2):hover,
+		.list__elt:nth-child(2):focus,
+		.list__elt:nth-child(3):hover,
+		.list__elt:nth-child(3):focus,
+		.list__elt:nth-child(4):hover,
+		.list__elt:nth-child(4):focus,
+		.list__elt:nth-child(5):hover,
+		.list__elt:nth-child(5):focus,
+		.dropdown__elt:hover,
+		.dropdown__elt:focus{
+			background-color: #0095CC;
+		}
+        .list__elt a {
+            text-decoration: none;
+            
+        }
+        .list__elt:first-child{
+        	background-color: white;
+        }
+        .list__elt:first-child a{
+           position: relative;
+           top: 8px;
+           left: -15px;
+        }
+        .list__elt:first-child img{
+           width: 80px;
+           height: auto;
+        }
+        .header__nav a{
+        	color: white;
+
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+            line-height: 3em;
+            padding: 0 2.1em;
+        }
+        .btn{
+        	display: none;
+        }
+        span{
+        	display: none;
+        }
+	}
+}
+
+
+
+
+
+

@@ -1,0 +1,320 @@
+@media screen and (min-width: 1026px) {
+	.presentation{
+		&__all{
+			display: flex;
+			flex-wrap: nowrap;
+		}
+		&__part1{
+			background: #cde2ec none repeat scroll 0 0;
+		    transition: background 0.2s ease-in-out 0s;
+			display: flex;
+		    float: left;
+		    width: 50%;
+		    text-decoration: none;
+		    color: inherit;
+		}
+		&__part2{
+			background: #e4eef2 none repeat scroll 0 0;
+		    transition: background 0.2s ease-in-out 0s;
+			display: flex;
+		    float: right;
+		    width: 50%;
+		    text-decoration: none;
+		    color: inherit;
+		}
+		&__part1:hover,
+		&__part1:focus{
+			background-color: #ACCAD9;
+		}
+		&__part2:hover,
+		&__part2:focus{
+			background-color: #CCDEE5;
+		}
+		&__img{
+			display: flex;
+		    height: auto;
+		    min-height: 220px;
+		    width: 38%;
+
+		    overflow: hidden;
+		    &--photo{
+				position: relative;
+				right: 35%;
+				height: 100%;
+				width: auto;
+		    }
+		}
+		&__content{
+			display: block;
+		    height: auto;
+		    min-height: 220px;
+		    padding: 1.7em;
+		    width: 62%;
+		    transition: 0.2s ease-in-out 0s;
+			&--heading3{
+				font-size: 1.2em;
+			    font-weight: 400;
+			    letter-spacing: 0;
+			    line-height: 1.3em;
+			    margin-bottom: 0.8em;
+			}
+			&--txt{
+				font-size: 1em;
+			    font-weight: 400;
+			    letter-spacing: 0;
+			    line-height: 1.33333em;
+			    margin-bottom: 1.11111em;
+			}
+			&--link{
+				color: #2a5993;
+			    font-size: 1em;
+			    font-weight: 600;
+			    transition: color 0.2s ease-in-out 0s;
+			}
+		}
+		&__content:hover p:last-child,
+		&__content:focus p:last-child{
+			text-decoration: underline;
+			color: $textDarkColor;
+		}
+		&__link{
+			color: #2B2B30;
+			text-decoration: none;
+		}
+	}
+}
+@media screen and (min-width: 771px) and (max-width: 1025px){
+	.presentation{
+		&__all{
+
+		}
+		&__part1{
+			height: 240px;
+			display: flex;
+		    text-decoration: none;
+		    color: inherit;
+		}
+		&__part2{
+			height: 240px;
+			display: flex;
+		    text-decoration: none;
+		    color: inherit;
+		}
+		&__img{
+			display: flex;
+		    height: auto;
+		    min-height: 220px;
+		    width: 30%;
+
+		    overflow: hidden;
+		    &--photo{
+				position: relative;
+				right: 30%;
+		    }
+		}
+		&__content{
+			display: block;
+		    height: auto;
+		    min-height: 220px;
+		    padding: 1.7em;
+		    width: 70%;
+		    transition: 0.2s ease-in-out 0s;
+			&--heading3{
+				font-size: 1.2em;
+			    font-weight: 400;
+			    letter-spacing: 0;
+			    line-height: 1.3em;
+			    margin-bottom: 0.8em;
+			}
+			&--txt{
+				font-size: 0.8em;
+			    font-weight: 400;
+			    letter-spacing: 0;
+			    line-height: 1.33333em;
+			    margin-bottom: 1.11111em;
+			}
+			&--link{
+				color: #2a5993;
+			    font-size: 1em;
+			    font-weight: 600;
+			    transition: color 0.2s ease-in-out 0s;
+			}
+		}
+		&__content1,
+		&__content1{
+			background: #cde2ec none repeat scroll 0 0;
+		    transition: background 0.2s ease-in-out 0s;
+		}
+		&__content2,
+		&__content2{
+			background: #e4eef2 none repeat scroll 0 0;
+		    transition: background 0.2s ease-in-out 0s;
+		}
+		&__content1:hover,
+		&__content1:focus{
+			background-color: #ACCAD9;
+		}
+		&__content2:hover,
+		&__content2:focus{
+			background-color: #CCDEE5;
+		}
+		&__content:hover p:last-child,
+		&__content:focus p:last-child{
+			text-decoration: underline;
+			color: $textDarkColor;
+		}
+		&__link{
+			color: #2B2B30;
+			text-decoration: none;
+		}
+	} 
+}
+@media screen and (min-width: 481px) and (max-width: 770px){ 
+	.presentation{
+		&__all{
+			display: flex;
+			width: 100%;
+			flex-wrap: nowrap;
+		}
+		&__part1{
+			background: #cde2ec none repeat scroll 0 0;
+		    transition: background 0.2s ease-in-out 0s;
+			width: 50%;
+		    text-decoration: none;
+		    color: inherit;
+		}
+		&__part2{
+			background: #e4eef2 none repeat scroll 0 0;
+		    transition: background 0.2s ease-in-out 0s;
+			width: 50%;
+		    text-decoration: none;
+		    color: inherit;
+		}
+		&__part1:hover,
+		&__part1:focus{
+			background-color: #ACCAD9;
+		}
+		&__part2:hover,
+		&__part2:focus{
+			background-color: #CCDEE5;
+		}
+		&__img{
+			height: 240px;
+		    overflow: hidden;
+		    &--photo{
+		    }
+		}
+		&__content{
+			display: block;
+		    height: auto;
+		    padding: 1.7em;
+		    transition: 0.2s ease-in-out 0s;
+			&--heading3{
+				font-size: 1.2em;
+			    font-weight: 400;
+			    letter-spacing: 0;
+			    line-height: 1.3em;
+			    margin-bottom: 0.8em;
+			}
+			&--txt{
+				font-size: 0.8em;
+			    font-weight: 400;
+			    letter-spacing: 0;
+			    line-height: 1.33333em;
+			    margin-bottom: 1.11111em;
+			}
+			&--link{
+				color: #2a5993;
+			    font-size: 1em;
+			    font-weight: 600;
+			    transition: color 0.2s ease-in-out 0s;
+			    margin-bottom: 1em;
+			}
+		}
+		&__content:hover p:last-child,
+		&__content:focus p:last-child{
+			text-decoration: underline;
+			color: $textDarkColor;
+		}
+		&__link{
+			color: #2B2B30;
+			text-decoration: none;
+		}
+	}
+}
+@media screen and (max-width: 480px) {
+	.presentation{
+		&__all{
+			
+		}
+		&__part1{
+		    text-decoration: none;
+		    color: inherit;
+		}
+		&__part2{
+		    text-decoration: none;
+		    color: inherit;
+		}
+		&__img{
+			max-height: 210px;
+			overflow: hidden;
+		    &--photo{
+		    	width: 100%;
+		    	height: auto;
+
+		    }
+		}
+		&__content{
+		    padding: 1.7em;
+		    transition: 0.2s ease-in-out 0s;
+			&--heading3{
+				font-size: 1em;
+			    font-weight: 400;
+			    letter-spacing: 0;
+			    line-height: 1.5em;
+			    margin-bottom: 0.8em;
+			}
+			&--txt{
+				font-size: 0.8em;
+			    font-weight: 400;
+			    letter-spacing: 0;
+			    line-height: 1.33333em;
+			    margin-bottom: 1.11111em;
+			}
+			&--link{
+				color: #2a5993;
+			    font-size: 1em;
+			    font-weight: 600;
+			    transition: color 0.2s ease-in-out 0s;
+			    margin-bottom: 1em; 
+			}
+		}
+		&__content1,
+		&__content1{
+			background: #cde2ec none repeat scroll 0 0;
+		    transition: background 0.2s ease-in-out 0s;
+		}
+		&__content2,
+		&__content2{
+			background: #e4eef2 none repeat scroll 0 0;
+		    transition: background 0.2s ease-in-out 0s;
+		}
+		&__content1:hover,
+		&__content1:focus{
+			background-color: #ACCAD9;
+		}
+		&__content2:hover,
+		&__content2:focus{
+			background-color: #CCDEE5;
+		}
+		&__content:hover p:last-child,
+		&__content:focus p:last-child{
+			text-decoration: underline;
+			color: $textDarkColor;
+		}
+		&__link{
+			color: #2B2B30;
+			text-decoration: none;
+		}
+	}
+}
